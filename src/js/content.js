@@ -36,7 +36,7 @@ function requestAPI(prompt){
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + '<USE-YOUR-OWN-API-TOKEN>'
+            'Authorization': 'Bearer ' + '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'
         },
         body: JSON.stringify(params)
     };
